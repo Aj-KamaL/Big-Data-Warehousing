@@ -1,0 +1,64 @@
+Fact: preferences
+Attributes: diningoptions(int), periodofstay(int), discount(float), transportcost(float), leisureactivities(text), modeofpayment(text), reservationcost(float), 
+	Dimension: date
+	Attributes: date(timestamp), 
+	Dimension: user
+	Attributes: usergender(boolean), userid(int), userage(int), username(text), 
+
+
+Fact: diningfacilities
+Attributes: bar(boolean), lunch(boolean), breakfast(boolean), dinner(boolean), 
+	Dimension: date
+	Attributes: date(timestamp), 
+	Dimension: user
+	Attributes: usergender(boolean), userid(int), userage(int), username(text), 
+
+
+Fact: accessibility
+Attributes: location(text), occupancy(boolean), weatherconditions(text), 
+	Dimension: date
+	Attributes: date(timestamp), 
+	Dimension: user
+	Attributes: usergender(boolean), userid(int), userage(int), username(text), 
+
+
+Fact: hotelpolicies
+Attributes: cancellationcharges(float), healthcareoptions(boolean), petsallowed(boolean), checkinout(text), medicalcharges(float), 
+	Dimension: date
+	Attributes: date(timestamp), 
+	Dimension: user
+	Attributes: usergender(boolean), userid(int), userage(int), username(text), 
+
+
+Fact: hotelbrandvalue
+Attributes: starrating(int), qualityofservices(int), reviewsrating(float), 
+	Dimension: date
+	Attributes: date(timestamp), 
+	Dimension: user
+	Attributes: usergender(boolean), userid(int), userage(int), username(text), 
+
+
+Fact: roomfacilities
+Attributes: singleroom(boolean), deluxesuite(boolean), doubleroom(boolean), attachedbathroom(boolean), hostelroom(boolean), 
+	Dimension: date
+	Attributes: date(timestamp), 
+	Dimension: user
+	Attributes: usergender(boolean), userid(int), userage(int), username(text), 
+
+
+Fact: usersatisfiability
+Attributes: userrating(float), 
+	Dimension: date
+	Attributes: date(timestamp), 
+	Dimension: user
+	Attributes: usergender(boolean), userid(int), userage(int), username(text), 
+
+
+Fact: hotelfacilities
+Attributes: parking(boolean), swimmingpool(boolean), breakfastincluded(boolean), diningincluded(boolean), orderin(boolean), 
+	Dimension: date
+	Attributes: date(timestamp), 
+	Dimension: user
+	Attributes: usergender(boolean), userid(int), userage(int), username(text), 
+
+

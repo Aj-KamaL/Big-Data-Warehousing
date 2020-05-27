@@ -1,0 +1,7 @@
+Uncertainty,PaymentOption,"decid,poid,  Online, Offline,Credit"
+Objective,QualityofService,"decid,qosid, servicename,customer,servicee,rating,price"
+Objective,OrderFood,"decid,orderid,item,quantity,price,customer,addons,poid"
+Objective,SelectLocation,"decid,locid,cost,proximity,accesibility,availability,qosid"
+Action,OrderFood,"decid,orderid,item,quantity,price,customer,addons,poid"
+Action,SelectLocation,"decid,locid,cost,proximity,accesibility,availability,qosid"
+Decision,ChooseActivity,

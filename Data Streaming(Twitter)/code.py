@@ -18,10 +18,10 @@ import sys, select, os
 # In[2]:
 
 
-access_token = '1022218661631746049-ilICEz7nb3vL1Kr4r4UgzIS26ZsUqm'
-access_token_secret = 'lliP4ZlLifmEUPQieCpb7GrZdFY0aD6GSjz03NOC4SSjx'
-consumer_key = 'GyCmTsNYxfDNGlyErkfdk4Kj9'
-consumer_secret = 'rjbrokq990hDlYG3sUFPlr92Bb3D6faSIgzLIIBJQiG4hqlmJD'
+access_token = '***************************************************'
+access_token_secret = '***************************************************'
+consumer_key = '***************************************************'
+consumer_secret = '***************************************************'
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
